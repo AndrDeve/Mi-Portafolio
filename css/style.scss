@@ -427,7 +427,7 @@ html{
         position: relative;
         border-radius: .5rem;
         z-index: 2;
-        margin-top: -4rem;
+        margin-top: -2.5rem;
 
         h3{
             color: $white;
@@ -710,6 +710,7 @@ html{
         .proyecto-bg{
             height: 22rem;
             width: 27rem;
+            margin-top: -4rem;
 
             img{
                 height: 16rem;

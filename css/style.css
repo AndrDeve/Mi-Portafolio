@@ -458,7 +458,7 @@ html::-webkit-scrollbar-thumb {
   position: relative;
   border-radius: .5rem;
   z-index: 2;
-  margin-top: -4rem;
+  margin-top: -2.5rem;
 }
 
 .proyectos .proyecto-bg h3 {
@@ -749,6 +749,7 @@ html::-webkit-scrollbar-thumb {
   .proyectos-items .proyecto-bg {
     height: 22rem;
     width: 27rem;
+    margin-top: -4rem;
   }
   .proyectos-items .proyecto-bg img {
     height: 16rem;

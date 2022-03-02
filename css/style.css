@@ -305,7 +305,7 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
   color: #fff;
   font-size: 3.5rem;
-  margin-bottom: 0.5rem;
+  margin: .5rem 0 1rem 0;
 }
 
 .habilidades-items {
@@ -357,7 +357,7 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
   color: #fff;
   font-size: 3.5rem;
-  margin-bottom: 3rem;
+  margin: .5rem 0 4rem 0;
 }
 
 .servicios-items {
@@ -430,7 +430,7 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
   color: #fff;
   font-size: 3.5rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
 }
 
 .proyectos .proyectos-items {
@@ -458,6 +458,7 @@ html::-webkit-scrollbar-thumb {
   position: relative;
   border-radius: .5rem;
   z-index: 2;
+  margin-top: -1.5rem;
 }
 
 .proyectos .proyecto-bg h3 {

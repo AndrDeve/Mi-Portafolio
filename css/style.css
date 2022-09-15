@@ -376,7 +376,7 @@ html::-webkit-scrollbar-thumb {
   text-align: center;
 }
 .proyectos .proyecto-bg h3 span {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 .proyectos .proyecto-bg .mas-items {
   display: flex;
@@ -626,10 +626,10 @@ html::-webkit-scrollbar-thumb {
     width: 20rem;
   }
   .proyectos-items .mas-items a {
-    margin-top: 2rem;
+    margin-top: 3.5rem;
   }
   .proyectos-items .mas-items .iconos {
-    margin-top: 2rem;
+    margin-top: 3.5rem;
   }
 }
 @media (max-width: 465px) {

@@ -375,6 +375,9 @@ html::-webkit-scrollbar-thumb {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.proyectos .proyecto-bg h3 span {
+  font-size: 1.8rem;
+}
 .proyectos .proyecto-bg .mas-items {
   display: flex;
   justify-content: space-around;

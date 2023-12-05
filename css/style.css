@@ -21,20 +21,55 @@ body {
   background: #040404;
 }
 
-.btn-wsp {
+.pulse {
+  width: 5rem;
+  height: 5rem;
+  background: #51c254;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 2rem;
   position: fixed;
-  bottom: 1.3rem;
-  left: 1.3rem;
+  bottom: 2rem;
+  right: 1.3rem;
   z-index: 100;
+  cursor: pointer;
 }
-.btn-wsp img {
-  height: 6rem;
-  width: 6rem;
-}
-.btn-wsp img:hover {
-  transform: scale(1.1);
+.pulse i {
+  color: white;
 }
 
+.pulse:after,
+.pulse:before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: -1rem;
+  right: -1rem;
+  bottom: -1rem;
+  border: 1px solid green;
+  border-radius: 50%;
+  animation: pulse 1.5s linear infinite;
+}
+
+.pulse::after {
+  animation-delay: 0.4s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
